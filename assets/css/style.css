@@ -1,0 +1,230 @@
+@import "bootstrap.css";
+@import "font-awesome.css";
+@import "jquery.pagepiling.css";
+@import "animate.css";
+
+@font-face {
+  font-family: 'baskerville_old_faceregular';
+  src: url('../fonts/baskvill-webfont.woff2') format('woff2'),
+       url('../fonts/baskvill-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+@font-face {
+  font-family: 'gotham_htfbold';
+  src: url('../fonts/gothamhtf-bold_0-webfont.woff2') format('woff2'),
+       url('../fonts/gothamhtf-bold_0-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+@font-face {
+  font-family: 'gotham_htfbook';
+  src: url('../fonts/gothamhtf-book_0-webfont.woff2') format('woff2'),
+       url('../fonts/gothamhtf-book_0-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,
+form,fieldset,input,textarea,p,blockquote,th,td {
+  padding: 0;
+  margin: 0;
+}
+a{
+  text-decoration:none;
+}
+table {
+  border-spacing: 0;
+}
+fieldset,img {
+  border: 0;
+}
+address,caption,cite,code,dfn,em,strong,th,var {
+  font-weight: normal;
+  font-style: normal;
+}
+strong{
+  font-weight: bold;
+}
+ol,ul {
+  list-style: none;
+  margin:0;
+  padding:0;
+}
+caption,th {
+  text-align: left;
+}
+h1,h2,h3,h4,h5,h6 {
+  font-weight: normal;
+  font-size: 100%;
+  margin:0;
+  padding:0;
+}
+q:before,q:after {
+  content:'';
+}
+  abbr,acronym { border: 0;
+}
+.float-right{
+  float: right;
+}
+/* Custom CSS
+* --------------------------------------- */
+body{
+  font-family: 'gotham_htfbook';
+  font-size: 16px;
+  color: #404041;
+}
+
+
+
+/*Menu*/
+.main-nav{ 
+  margin-bottom: 0; 
+  background:transparent; 
+ /*background: rgba(255,255,255,1);
+background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(241,241,241,0.5) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,255,1)), color-stop(100%, rgba(241,241,241,0.5)));
+background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(241,241,241,0.5) 100%);
+background: -o-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(241,241,241,0.5) 100%);
+background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(241,241,241,0.5) 100%);
+background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(241,241,241,0.5) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f1f1f1', GradientType=0 );*/
+  border:none;
+}
+.float-right-menu{
+  float: right;
+}
+.border-nav{
+  border-bottom: 1px solid rgba(255, 255, 255, 1);
+}
+.main-nav .navbar-nav > li > a{
+  color: #000;
+  font-size:15px;
+  padding-top:35px;
+  padding-bottom:35px; 
+  padding-left: 15px; 
+  padding-right: 15px;
+}
+.navbar-inverse .navbar-nav>li>a:focus{ 
+  color: #000; 
+}
+.main-nav .navbar-nav > li > a:hover{
+  color: #b52327;
+  border-color: #fff;
+}
+.main-nav .navbar-nav>.open>a, .main-nav .navbar-nav>.open>a:focus, .main-nav .navbar-nav>.open>a:hover{
+  color: #b52327;
+  background:transparent; 
+  border-color: #fff;}
+.active-nav{
+  color: #b52327 !important;
+  border-color: #fff;
+}
+.main-nav .navbar-nav > .active > a:hover, .main-nav .navbar-nav > .active > a:focus{
+  color: #fff;
+  background: #b52327 !important; 
+  border-color: #fff;
+}
+.navbar-brand{
+  padding: 0;
+  height: auto;
+  margin-top: 10px;
+  padding-bottom: 10px;
+  height: 90px;
+}
+.main-nav .dropdown-menu{ border-radius: 0;
+  border: none; 
+  padding: 0; 
+  transition: 0.5s; 
+}
+.main-nav .dropdown-menu>li>a{ 
+  padding: 10px 15px;
+  font-size:15px;
+}
+.main-nav .dropdown-menu>li>a:focus, .main-nav .dropdown-menu>li>a:hover{
+  color: #fff;
+  background: #b52327;
+}
+.scroll{ background: #000 !important; transition: 0.5s; 
+-webkit-box-shadow: -1px 2px 15px 2px rgba(0, 0, 0 , 0.36);
+-moz-box-shadow: -1px 2px 15px 2px rgba(0, 0, 0 , 0.36);
+box-shadow: -1px 2px 15px 2px rgba(0, 0, 0 , 0.36);}
+/*Menu end*/
+
+
+/*.pp-easing {
+  -webkit-transition: all 2000ms cubic-bezier(0.550, 0.085, 0.000, 0.990);
+  -moz-transition: all 2000ms cubic-bezier(0.550, 0.085, 0.000, 0.990);
+  -o-transition: all 2000ms cubic-bezier(0.550, 0.085, 0.000, 0.990);
+  transition: all 2000ms cubic-bezier(0.550, 0.085, 0.000, 0.990);
+  -webkit-transition-timing-function: cubic-bezier(0.550, 0.085, 0.000, 0.990);
+  -moz-transition-timing-function: cubic-bezier(0.550, 0.085, 0.000, 0.990);
+  -o-transition-timing-function: cubic-bezier(0.550, 0.085, 0.000, 0.990);
+  transition-timing-function: cubic-bezier(0.550, 0.085, 0.000, 0.990);
+}
+*/
+/*section{
+  background: #fff;
+}*/
+section h1{
+  font-size: 60px;
+  text-align: center;
+  color: #fff;
+}
+
+
+
+
+/*Responsive*/
+
+@media only screen and (min-width: 1601px) and (max-width: 1920px) {
+
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1365px) {
+
+}
+
+
+@media only screen and (min-width: 992px) and (max-width: 1024px) {
+
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+
+}
+
+@media only screen and (max-width:991px){
+  /*for navbar-toggle on 768*/
+  .navbar-header {float: none;}
+  .navbar-collapse {border-top: 1px solid transparent;box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);}
+  .navbar-collapse.collapse {display: none!important;}
+  .navbar-nav {float: none!important;margin: 0px -15px;}
+  .navbar-nav>li {float: none;}
+  .navbar-nav>li>a {padding-top: 10px;padding-bottom: 10px;}
+  .navbar-text {float: none;margin: 15px 0;}
+  .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form{background: #fff;width: 100%;border:none;}
+  .nav > li > a{ font-size:18px;padding-top:10px;padding-bottom:10px;    }
+  .navbar .container-fluid{padding-right: 0;margin: 0 -15px 0 0;}
+  .border-nav{ border:none; }
+  .main-nav{ background: #fff; }
+  .main-nav .navbar-nav > li > a{color: #1e1e1e; padding-top: 10px; padding-bottom: 10px;}
+  .navbar-brand{margin-top: 10px;margin-left: 10px;margin-bottom: 10px;}
+  .navbar-inverse .navbar-toggle .icon-bar{ background: #1e1e1e; width: 30px; height: 3px;}
+  .navbar-inverse .navbar-toggle{ border: none; margin:25px 0; display: block; }
+  .navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus{ background:none; }
+  .navbar-collapse.collapse.in { display: block!important;}
+  .collapsing {overflow: hidden!important;}
+  .dropdown-menu {min-width: 100%;}
+  /*for navbar-toggle on 768 end*/
+}
+
+@media only screen and (max-width:767px){
+  
+}
