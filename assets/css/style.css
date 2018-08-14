@@ -84,7 +84,7 @@ body{
 /*Menu*/
 .main-nav{ 
   margin-bottom: 0; 
-  background:transparent; 
+  background:#fff; 
  /*background: rgba(255,255,255,1);
 background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(241,241,241,0.5) 100%);
 background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,255,1)), color-stop(100%, rgba(241,241,241,0.5)));
