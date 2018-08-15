@@ -435,15 +435,17 @@ section{
   margin-bottom: 25px;
   font-family: 'gotham_htfbold';
 }
+.contact-us p {
+  margin: 20px 0;
+  padding-left: 40px;
+  line-height: 18px;
+}
 .contact-us p a{
   font-size: 16px;
   color: #404041;
   text-decoration: none;
 }
-.contact-us p {
-  margin: 20px 0;
-  padding-left: 40px;
-}
+
 .contact-us p a:hover{
   color: #b52327;
   text-decoration: none;
@@ -702,6 +704,9 @@ footer p{
   }
   .contact-us h1{
     margin-top: 100px;
+  }
+  .contact-us p a{
+    font-size: 13px;
   }
 
   footer{
