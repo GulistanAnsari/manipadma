@@ -16,7 +16,7 @@ $(document).ready(function() {
     $('#pagepiling').pagepiling({
         menu: '#menu',
         // anchors: ['page1', 'page2', 'page3', 'page4'],
-        sectionsColor: ['#F1F1F1', '#ee005a', '#2C3E50', '#39C'],
+        // sectionsColor: ['#F1F1F1', '#ee005a', '#2C3E50', '#39C'],
         navigation: {
             'position': 'right'
         },
@@ -51,4 +51,31 @@ $(window).scroll(function() {
     } else {
         $(".nav-top").removeClass("scroll");
     }
+});
+
+
+$('.banner-home-slider').owlCarousel({
+    loop: true,
+    autoplay: 80000,
+    nav: true,
+    dots: true,
+    autoHeight: true,
+    touchDrag: true,
+    mouseDrag: true,
+    margin: 0,
+    navText: ["<img src='assets/img/prev.png'>","<img src='assets/img/next.png'>"],
+    responsiveClass: true,
+    responsive: {
+        0: {
+            items: 1,
+            autoHeight: false,
+        },
+        768: {
+            items: 1,
+            autoHeight: false,
+        },
+        1200: {
+            items: 1,
+        }
+    },
 });
