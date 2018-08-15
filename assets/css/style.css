@@ -655,7 +655,7 @@ footer p{
     width: 220px;
     margin-top: 0px;
   }
-  /*.arrow-right{
+  .arrow-right{
     position: absolute;
     top: 45%;
     right:20%;
@@ -671,7 +671,7 @@ footer p{
     display: inline-block;
     margin-top: -10px;
   }
-*/
+
   .arrow-right img, .arrow-left img{
     width: 70%;
   }
