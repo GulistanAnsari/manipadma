@@ -347,10 +347,10 @@ section{
   margin-left: -50px;
 }
 .about-slider h2{
-  font-size: 32px;
+  font-size: 45px;
   font-family: 'gotham_htfbold';
   margin-bottom: 0px;
-  margin-top: 90px;
+  margin-top: 95px;
   padding-left: 100px;
 }
 .about-slider .text{
@@ -493,8 +493,7 @@ footer p{
   color: #fff;
   font-size: 12px;
   text-align: center;
-  padding-top: 20px;
-  display: block;
+  padding-top: 15px;
   width: 100%;
   float: left;
 }
@@ -544,10 +543,10 @@ footer p{
   }
 
   .arrow-left{
-    left: -85px;
+    left: -55px;
   }
   .arrow-right{
-    left: -85px;
+    right: -55px;
   }
 
   .about-slider h2{
