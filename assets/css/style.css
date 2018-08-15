@@ -305,13 +305,13 @@ section{
   width: 100%;
   display: block;
   background: rgba(230, 0, 0, 0.6);
-  padding: 35px 0;
+  padding: 30px 0;
   color: #fff;
   font-size: 40px;
   font-family: 'gotham_htfbold';
   text-align: center;
   margin: auto;
-  margin-top: 10px;
+  margin-top: 20px;
 }
 
 
