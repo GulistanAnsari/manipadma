@@ -662,7 +662,7 @@ footer p{
   }
   .arrow-left{
     top: 110px;
-    left:80%;
+    left: 235px;
   }
 
   .arrow-right-new, .arrow-left-new{
@@ -672,7 +672,7 @@ footer p{
     right: 0;
   }
   .arrow-left-new{
-    left: 80%
+    left: 255px;
   }
   .arrow-right img, .arrow-left img, .arrow-right-new img, .arrow-left-new img{
     height: 30px;
