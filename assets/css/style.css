@@ -347,7 +347,7 @@ section{
   margin-left: -50px;
 }
 .about-slider h2{
-  font-size: 45px;
+  font-size: 40px;
   font-family: 'gotham_htfbold';
   margin-bottom: 0px;
   margin-top: 95px;
@@ -360,7 +360,7 @@ section{
   text-align: center;
 }
 .about-slider .logo img{
-  width: 350px;
+  width: 335px;
 }
 
 
@@ -676,6 +676,9 @@ footer p{
   .arrow-right img, .arrow-left img{
     width: 70%;
   }
+  .arrow-right-new, .arrow-left-new{
+    top: 110px;
+  }
   .arrow-right-new img, .arrow-left-new img{
     width: 70%;
   }
@@ -694,7 +697,7 @@ footer p{
     margin-left:0px;
   }
   .carousel-inner img{
-    margin-top: 100px;
+    margin-top: 140px;
   }
 
 
