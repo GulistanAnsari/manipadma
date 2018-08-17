@@ -15,7 +15,7 @@ $(document).ready(function() {
 
     $('#pagepiling').pagepiling({
         menu: '#menu',
-        anchors: ['HOME', 'PURPOSE', 'MESSAGE', 'EVENT', 'CONTACT US'],
+        //anchors: ['HOME', 'PURPOSE', 'MESSAGE', 'EVENT', 'CONTACT-US'],
         // sectionsColor: ['#F1F1F1', '#ee005a', '#2C3E50', '#39C'],
         navigation: {
             'position': 'right'
