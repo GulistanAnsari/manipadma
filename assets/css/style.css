@@ -662,6 +662,9 @@ footer p{
   .padding0{
     padding: 0 15px;
   }
+  .mobile-no-padding{
+    padding: 0;
+  }
   .pp-scrollable .vertical-centred{
     /*padding-bottom: 5rem;*/
   }
