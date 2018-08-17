@@ -15,7 +15,7 @@ $(document).ready(function() {
 
     $('#pagepiling').pagepiling({
         menu: '#menu',
-        // anchors: ['page1', 'page2', 'page3', 'page4'],
+        anchors: ['HOME', 'PURPOSE', 'MESSAGE', 'EVENT', 'CONTACT US'],
         // sectionsColor: ['#F1F1F1', '#ee005a', '#2C3E50', '#39C'],
         navigation: {
             'position': 'right'
@@ -78,4 +78,15 @@ $('.banner-home-slider').owlCarousel({
             items: 1,
         }
     },
+});
+
+
+$(".carousel").swipe({
+  swipe: function(event, direction, distance, duration, fingerCount, fingerData) {
+
+    if (direction == 'left') $(this).carousel('next');
+    if (direction == 'right') $(this).carousel('prev');
+
+  },
+  allowPageScroll:"vertical"
 });
