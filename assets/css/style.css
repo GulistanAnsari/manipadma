@@ -322,7 +322,7 @@ section{
 /*.banner-home-slider .owl-nav .owl-prev{position: absolute;left: -20px;bottom: 160px;}*/
 .arrow-right-new{
     position: absolute;
-    top: 300px;
+    top: 50%;
     right:35px;
     z-index: 5;
     display: inline-block;
@@ -330,7 +330,7 @@ section{
 }
 .arrow-left-new{
     position: absolute;
-    top: 300px;
+    top: 50%;
     left:35px;
     z-index: 5;
     display: inline-block;
@@ -338,7 +338,7 @@ section{
 }
 .about-slider{
   /*padding: 110px 0 0 0;*/
-    height: 100vh;
+    /*height: 100vh;*/
 }
 .about-slider h1{
   font-size: 50px;
@@ -528,17 +528,169 @@ footer p{
 }
 
 
+@media only screen and (min-width: 1920px) and (max-width: 2250px) {
+  body, p{
+    font-size: 22px;
+    line-height: 28px;
+  }
+  .container{
+    width: 1600px;
+  }
+  .navbar-brand{
+    height: 120px;
+  }
+  .main-nav .navbar-nav > li > a{
+    font-size: 22px;
+  }
+  .intro .main-logo img{
+    width: 525px;
+  }
+  .intro .home-title{
+    font-size: 54px;
+    padding: 50px 0;
+    margin-top: 50px;
+  }
+
+
+  .about-slider h2{
+    font-size: 52px;
+  }
+  .about-slider h1{
+    margin-top: 250px;
+    font-size: 56px;
+  }
+  .carousel-indicators li{
+    width: 20px;
+    height: 20px;
+  }
+  .carousel-indicators .active{
+    width: 22px;
+    height: 22px;
+  }
+
+  .carousel-service h1{
+    font-size: 56px;
+  }
+
+  .message .content h1{
+    font-size: 60px;
+  }
+
+  .title{
+    font-size: 52px;
+  }
+  .contact-us h2{
+    font-size: 30px;
+  }
+  .contact-us p a{
+    font-size: 22px;
+  }
+  .form-control{
+    height: 50px;
+    font-size: 22px;
+  }
+  .all-btn{
+    font-size: 22px;
+  }
+  .contact-us .fas{
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    /*margin-bottom: 40px;*/
+  }
+  .contact-us p{
+    margin-left: 50px;
+    margin-bottom: 40px;
+    line-height: 26px;
+  }
+  footer ul li a{ 
+    font-size: 22px; 
+  }
+  footer p{
+    font-size: 18px;
+  }
+}
 
 /*Responsive*/
+@media only screen and (min-width: 1600px) and (max-width: 1919px) {
+  body, p{
+    font-size: 18px;
+    line-height: 26px;
+  }
 
-@media only screen and (min-width: 1600px) and (max-width: 1920px) {
+  .navbar-brand{
+    height: 140px;
+  }
+  .main-nav .navbar-nav > li > a{
+    font-size: 18px;
+  }
+  .intro .main-logo img{
+    width: 425px;
+  }
+  .intro .home-title{
+    font-size: 48px;
+  }
 
-}
 
-@media only screen and (min-width: 1366px) and (max-width: 1599px) {
+  .about-slider h2{
+    font-size: 50px;
+  }
+  .about-slider h1{
+    margin-top: 200px;
+    font-size: 54px;
+  }
 
-}
-@media only screen and (min-width: 1025px) and (max-width: 1365px) {
+  .carousel-indicators li{
+    width: 16px;
+    height: 16px;
+  }
+  .carousel-indicators .active{
+    width: 18px;
+    height: 18px;
+  }
+
+  .carousel-service h1{
+    font-size: 54px;
+  }
+
+  .message .content h1{
+    font-size: 56px;
+  }
+
+  .title{
+    font-size: 48px;
+  }
+  .contact-us h2{
+    font-size: 26px;
+  }
+  .contact-us p a{
+    font-size: 18px;
+  }
+  .form-control{
+    height: 45px;
+    font-size: 18px;
+  }
+  .all-btn{
+    font-size: 18px;
+  }
+  .contact-us .fas{
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    /*margin-bottom: 40px;*/
+  }
+  .contact-us p{
+    margin-left: 50px;
+    margin-bottom: 40px;
+    line-height: 26px;
+  }
+  footer ul li a{ 
+    font-size: 18px; 
+  }
+  footer p{
+    font-size: 16px;
+  }
+
 
 }
 
